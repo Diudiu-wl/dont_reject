@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/download-myapp/static/css/main.e70caafc.css",
+    "main.js": "/download-myapp/static/js/main.20d99534.js",
+    "index.html": "/download-myapp/index.html",
+    "main.e70caafc.css.map": "/download-myapp/static/css/main.e70caafc.css.map",
+    "main.20d99534.js.map": "/download-myapp/static/js/main.20d99534.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e70caafc.css",
+    "static/js/main.20d99534.js"
+  ]
+}
