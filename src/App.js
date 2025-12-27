@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div className="app">
+      <div className="card">
+        <h1 className="title">欢迎下载表白小软件</h1>
+        <p className="subtitle">拿去发给你的crush吧~</p>
+
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/downloads/dont_reject.exe"
+          download
+          className="download-btn"
         >
-          Learn React
+          下载
         </a>
-      </header>
+      </div>
     </div>
   );
 }
