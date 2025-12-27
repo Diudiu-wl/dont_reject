@@ -29,15 +29,22 @@
 
 /* ===== 按钮样式（简洁版） ===== */
 .download-btn {
-  display: inline-block;
   padding: 10px 32px;
   font-size: 14px;
   color: #ffffff;
   background-color: #1677ff;
   border-radius: 6px;
-  text-decoration: none;
+
+  /* 关键几行 ↓ */
+  border: none;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+
+  cursor: pointer;
 }
 
 .download-btn:hover {
   background-color: #0958d9;
 }
+
